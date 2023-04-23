@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+/* top head */
+
+.top-head{
+    display: flex;
+    background-color: #00273c;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-head-left{
+    margin-left: 30px;
+    color: white;
+    font-family: 'Poppins','sans-serif';
+}
+.top-head-right{
+    margin-right: 30px;
+    display: flex;
+    gap: 30px;
+}
+.top-head-right a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s ease-out;
+    font-family: 'Poppins','sans-serif';
+}
+.top-head-right a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #dce144;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgb(255, 53, 53);
+    padding: 4px;
+}
+
+/* head */
+
+.head{
+    display: flex;
+    align-items: center;
+    background-color: #def3ff;
+}
+.head-img img{
+    width: 70px;
+    border-radius: 55%;
+    margin-left: 80px;
+    margin: 15px 0 10px 40px;
+    transition: 1s;
+}
+.head-img img:hover{
+    transform: rotateY(180deg);
+    box-shadow: 0 0 20px red;
+}
+.head-text{
+    color: #00273c;
+    font-size: 1.8em;
+    letter-spacing: 10px;
+    text-shadow: 0 0 2px #00273c;
+}
+.head-text h1{
+    font-family: 'Poppins','sans-serif';
+    margin-left: 450px;
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    background-color: #00273c;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.nav-right{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+.nav-right a{
+    color: white;
+    text-decoration: none;
+    font-family: 'roboto','sans-serif';
+    transition: 0.3s ease-in;
+}
+.nav-right a:hover{
+    color: rgb(66, 246, 255);
+    border-radius: 8px;
+    transform: scale3d(1.4,1.4,1.4);
+}
+.nav-btn{
+    border: 2px solid rgb(0, 148, 104);
+    background-color: #def3ff;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 50px;
+    font-family: 'Roboto','sans-serif';
+    color: #00273c !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+.nav-btn:hover{
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 251, 0) !important;
+    background-color: red;
+    font-size: 1.1em;
+}
+.aboutus{
+    height: 500px;
+}
+
+/* our school */
+
+.our-school{
+    display: flex;
+    background-color: #def3ff;
+}
+.our-school-left{
+    width: 50%;
+    color: #00273c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.our-school-left h2{
+    font-family: 'poppins','sans-serif';
+    font-size: 3em;
+    text-shadow: 0 0 4px #00273c;
+}
+.our-school-left p{
+    text-align: center;
+    padding: 15px 100px;
+    font-family: 'roboto','sans-serif';
+}
+.our-school-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-school-right img{
+    width: 80%;
+    margin: 60px;
+    border-radius: 40px;
+    box-shadow: 0 0 12px 8px #00273c;
+}
+.our-school-right img:hover{
+    transform: scale3d(0.9,0.9,0.9);
+    box-shadow: 0 0 12px 12px #00273c;
+}
+
+/* principal's desk */
+
+.p-desk{
+    display: flex;
+    background-color: #00273c;
+}
+.p-desk-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-desk-left img{
+    width: 80%;
+    height: 450px;
+    margin: 60px;
+    border-radius: 40px;
+    box-shadow: 0 0 12px 8px #def3ff;
+}
+.p-desk-left img:hover{
+    transform: scale3d(0.9,0.9,0.9);
+    box-shadow: 0 0 12px 12px #def3ff;
+}
+.p-desk-right{
+    width: 50%;
+    color: #def3ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.p-desk-right h2{
+    font-family: 'poppins','sans-serif';
+    font-size: 3em;
+    text-shadow: 0 0 4px #def3ff;
+}
+.p-desk-right p{
+    text-align: left;
+    padding: 15px 100px;
+    font-family: 'roboto','sans-serif';
+}
+
+/* aims and objectives */
+
+.aim{
+    display: flex;
+    background-color: #def3ff;
+}
+.aim-left{
+    width: 50%;
+    color: #00273c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aim-left h2{
+    font-family: 'poppins','sans-serif';
+    font-size: 3em;
+    text-shadow: 0 0 4px #00273c;
+}
+.aim-left p{
+    text-align: center;
+    padding: 15px 100px;
+    font-family: 'roboto','sans-serif';
+}
+.aim-right{
+    height: 520px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aim-right img{
+    width: 50%;
+    height: 300px;
+    margin: 60px;
+    border-radius: 40px;
+    box-shadow: 0 0 12px 8px #00273c;
+}
+.aim-right img:hover{
+    transform: scale3d(0.9,0.9,0.9);
+    box-shadow: 0 0 12px 12px #00273c;
+}
+
+/* fundamental duties */
+
+.duty{
+    display: flex;
+    background-color: #00273c;
+}
+.duty-left{
+    width: 50%;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.duty-left img{
+    width: 60%;
+    height: 250px;
+    margin: 60px;
+    background-color: #def3ff;
+    border: 1px solid #00273c;
+    border-radius: 40px;
+    box-shadow: 0 0 12px 8px #def3ff;
+}
+.duty-left img:hover{
+    transform: scale3d(0.9,0.9,0.9);
+    box-shadow: 0 0 12px 12px #def3ff;
+}
+.duty-right{
+    width: 50%;
+    color: #def3ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.duty-right h2{
+    font-family: 'poppins','sans-serif';
+    font-size: 3em;
+    text-shadow: 0 0 4px #def3ff;
+}
+.duty-right p{
+    text-align: start;
+    padding: 15px 100px;
+    font-family: 'roboto','sans-serif';
+}
+
+/* footer */
+
+.footer{
+    background-color: #def3ff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer h3{
+    font-size: 1.2em;
+    color: #00273c;
+    text-shadow: 0 0 2px #00273c;
+    font-family: 'poppins','sans-serif';
+}
+.footer li{
+    color: #00273c;
+    text-align: center;
+}
+.footer li:hover{
+    text-shadow: 0 0 10px #164eb5 , 0 0 20px #164eb5 , 0 0 40px #164eb5 ;
+    transform: translateX(20px);
+    color: #164eb5;
+}
+.exam{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 40px;
+    font-family: 'roboto','sans-serif';
+}
+.link{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 40px;
+    font-family: 'roboto','sans-serif';
+}
+.help{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 40px;
+    font-family: 'roboto','sans-serif';
+}
+.contact{
+    padding-top: 45px;
+    font-family: 'roboto','sans-serif';
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+.icons img:hover{
+    box-shadow: 0 0 8px #00273c , 0 0 8px #00273c;
+    transform: scale3d(1.2,1.2,1.2);
+}
+.address{
+    padding-top: 45px;
+    text-align: center;
+}
+.address img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.address img:hover{
+    transform: scale3d(1.2,1.1,1.2);
+    box-shadow: 0 0 4px #00273c , 0 0 8px #00273c;
+}
+
+/* disclaimer */
+
+.disclaimer{
+    background-color: #00273c;
+    height: 40px;
+    color: #def3ff;
+    text-align: center;
+    font-family: 'roboto','sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.disclaimer p:hover{
+    font-size: 1.5em;
+    text-shadow: 0 0 6px #def3ff;
+}
+
+
+/* responsiveness */
+
+@media (max-width: 1000px) {
+
+    /* top head */
+
+    .top-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .top-head-left{
+        padding: 4px;
+    }
+    .top-head-right{
+        padding: 4px;
+    }
+
+    /* head */
+
+    .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .head-img img{
+        margin-left: 0;
+    }
+    .head-text h1{
+        font-size: 1em;
+        margin-left: 0;
+    }
+
+    /* navbar */
+
+    .navbar{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-right{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .nav-left{
+        margin-bottom: 10px;
+    }
+
+    /* our school */
+
+    .our-school{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-school-left{
+        width: fit-content;
+        text-align: center;
+    }
+    .our-school-right{
+        width: fit-content;
+    }
+
+    /* principal desk */
+
+    .p-desk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p-desk-left{
+        width: fit-content;
+    }
+    .p-desk-right{
+        width: fit-content;
+        text-align: center;
+    }
+
+    /* aims and objectives */
+
+    .aim{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aim-left{
+        width: fit-content;
+        text-align: center;
+    }
+    .aim-right{
+        width: fit-content;
+    }
+
+    /* fundamental duties */
+
+    .duty{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .duty-left{
+        width: fit-content;
+    }
+    .duty-right{
+        width: fit-content;
+        text-align: center;
+    }
+
+     /* footer */
+
+     .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer h3{
+        text-align: center;
+    }
+    .address img{
+        width: 200px;
+        height: 200px;
+    }
+    .footer h3{
+        font-size: 1.2em;
+    }
+
+    /* disclaimer */
+
+    .disclaimer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: fit-content;
+        padding: 10px;
+    }
+}
